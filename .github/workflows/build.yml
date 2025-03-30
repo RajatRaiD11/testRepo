@@ -2,11 +2,11 @@ name: Test workflow with OX Security Scan
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     types: [opened, reopened, synchronize]
     branches:
-      - master
+      - main
 jobs:
   security:
     runs-on: ubuntu-latest
